@@ -2,6 +2,9 @@
 fn main() {
     hello();
     tell_height(184);
+
+
+    name("Mardonbek")
 }
 
 fn hello() {
@@ -10,4 +13,8 @@ fn hello() {
 
 fn tell_height(h: u32) {
     println!("my height is {} cm.", h)
+}
+
+fn name(n: &str) {
+    println!("Hello, {}", n);
 }
