@@ -7,3 +7,13 @@ fn main() {
 
     println!("value of owner1 is {}", _owner1); // 84
 }
+
+struct BankAccount {
+    owner: String;
+    balance: f32;
+}
+
+impl BankAccount {
+    fn withdraw() {
+    }
+}
