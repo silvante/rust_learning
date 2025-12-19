@@ -9,11 +9,17 @@ fn main() {
 }
 
 struct BankAccount {
-    owner: String;
-    balance: f32;
+    owner: String,
+    balance: f32,
 }
 
 impl BankAccount {
-    fn withdraw() {
+    fn withdraw(&mut self, amount: f32) {
+        println!("withdrawing {} from account owned by {}", amount, self.owner);
+        self.balance -= amount;
+    }
+
+    fn chack_balance(&self) {
+        println!("account owned by {}, has {} in balance", self.owner, self.balance);
     }
 }
