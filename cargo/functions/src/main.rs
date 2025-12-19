@@ -2,7 +2,9 @@
 fn main() {
     let result: i32 = JustStruct::add(48, 82);
 
-    println!("result is: {}", result)
+    println!("result is: {}", result);
+
+    println!("function add returned, {}. ", JustStruct::add(37, 82));
 }
 
 struct JustStruct {}
