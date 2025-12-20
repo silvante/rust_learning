@@ -1,11 +1,15 @@
 fn main() {
-    let mut _owner1: i32 = 82;
+    let mut account: BankAccount = BankAccount{
+        owner: "Valentine".to_string(),
+        balance: 12500.05,
+    };
+    // immutable borrow
+    account.chack_balance();
 
-    let _owner2: &mut i32 = &mut _owner1;
+    // mutable borrow
+    account.withdraw(2500.05);
 
-    *_owner2 += 2;
-
-    println!("value of owner1 is {}", _owner1); // 84
+    account.chack_balance();
 }
 
 struct BankAccount {
