@@ -13,5 +13,5 @@ fn main() {
     let owner1 = String::from("SingleValue");
     let owner2 = owner1;
 
-    println!("value is {}", owner2); // error
+    println!("value is {}", owner2); // printed
 }
