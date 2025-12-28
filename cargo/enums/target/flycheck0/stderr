@@ -1,12 +1,54 @@
-   0.021429315s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: stale: changed "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs"
-   0.021462497s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:           (vs) "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-72ee300196ba098d/dep-bin-enums"
-   0.021469465s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766934162, nanos: 886461755 } < FileTime { seconds: 1766934164, nanos: 841613843 }
-   0.021550959s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint dirty for enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums)/Check { test: false }/TargetInner { name: "enums", doc: true, ..: with_path("/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", Edition2024) }
-   0.021573312s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-72ee300196ba098d/dep-bin-enums", reference_mtime: FileTime { seconds: 1766934162, nanos: 886461755 }, stale: "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", stale_mtime: FileTime { seconds: 1766934164, nanos: 841613843 } }))
-   0.021867481s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: stale: changed "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs"
-   0.021874009s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:           (vs) "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-86b906b575ca5d37/dep-test-bin-enums"
-   0.021879464s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766934162, nanos: 886461755 } < FileTime { seconds: 1766934164, nanos: 841613843 }
-   0.021922374s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint dirty for enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums)/Check { test: true }/TargetInner { name: "enums", doc: true, ..: with_path("/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", Edition2024) }
-   0.021933910s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-86b906b575ca5d37/dep-test-bin-enums", reference_mtime: FileTime { seconds: 1766934162, nanos: 886461755 }, stale: "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", stale_mtime: FileTime { seconds: 1766934164, nanos: 841613843 } }))
+   0.025183883s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: stale: changed "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs"
+   0.025251797s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:           (vs) "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-72ee300196ba098d/dep-bin-enums"
+   0.025262061s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766934380, nanos: 155434904 } < FileTime { seconds: 1766934380, nanos: 212884532 }
+   0.025351156s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint dirty for enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums)/Check { test: false }/TargetInner { name: "enums", doc: true, ..: with_path("/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", Edition2024) }
+   0.025378916s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-72ee300196ba098d/dep-bin-enums", reference_mtime: FileTime { seconds: 1766934380, nanos: 155434904 }, stale: "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", stale_mtime: FileTime { seconds: 1766934380, nanos: 212884532 } }))
+   0.025862924s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: stale: changed "/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs"
+   0.025873942s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:           (vs) "/home/xamidov/devs/rust_learning/cargo/enums/target/debug/.fingerprint/enums-86b906b575ca5d37/dep-test-bin-enums"
+   0.025881149s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1766934380, nanos: 156434904 } < FileTime { seconds: 1766934380, nanos: 212884532 }
+   0.026036524s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint: fingerprint error for enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums)/Check { test: true }/TargetInner { name: "enums", doc: true, ..: with_path("/home/xamidov/devs/rust_learning/cargo/enums/src/main.rs", Edition2024) }
+   0.026134873s  INFO prepare_target{force=false package_id=enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums) target="enums"}: cargo::core::compiler::fingerprint:     err: failed to deserialize json
+
+Caused by:
+    EOF while parsing a value at line 1 column 0
+
+Stack backtrace:
+   0: <serde_json::error::Error as anyhow::context::ext::StdError>::ext_context::<anyhow::Error>
+   1: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   2: cargo::core::compiler::fingerprint::prepare_target
+   3: cargo::core::compiler::compile
+   4: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   5: cargo::ops::cargo_compile::compile_ws
+   6: cargo::ops::cargo_compile::compile_with_exec
+   7: cargo::ops::cargo_compile::compile
+   8: cargo::commands::check::exec
+   9: <cargo::cli::Exec>::exec
+  10: cargo::main
+  11: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  12: std::rt::lang_start::<()>::{closure#0}
+  13: core::ops::function::impls::<impl core::ops::function::FnOnce<A> for &F>::call_once
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/core/src/ops/function.rs:287:21
+  14: std::panicking::catch_unwind::do_call
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  15: std::panicking::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  16: std::panic::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  17: std::rt::lang_start_internal::{{closure}}
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/rt.rs:175:24
+  18: std::panicking::catch_unwind::do_call
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:590:40
+  19: std::panicking::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panicking.rs:553:19
+  20: std::panic::catch_unwind
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/panic.rs:359:14
+  21: std::rt::lang_start_internal
+             at /rustc/ded5c06cf21d2b93bffd5d884aa6e96934ee4234/library/std/src/rt.rs:171:5
+  22: main
+  23: __libc_start_call_main
+             at ./csu/../sysdeps/nptl/libc_start_call_main.h:58:16
+  24: __libc_start_main_impl
+             at ./csu/../csu/libc-start.c:360:3
+  25: <unknown>
     Checking enums v0.1.0 (/home/xamidov/devs/rust_learning/cargo/enums)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.09s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.31s
