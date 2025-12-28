@@ -5,6 +5,11 @@ fn main() {
     route(four);
     route(six);
 
+    let local = IpAddr {
+        kind: IPsKind::V4,
+        address: String::from("127.0.0.1")
+    };
+
     println!("Hello, World!")
 }
 
@@ -13,4 +18,9 @@ fn route (ip: IPsKind) {}
 enum IPsKind {
     V4,
     V6,
+}
+
+struct IpAddr {
+    kind: IPsKind,
+    address: String,
 }
